@@ -14,7 +14,7 @@ body { font-family: sans-serif; line-height: 1.4; padding: 2rem; background: #f5
     margin: 0 auto 2rem;    /* auto L/R margins keep it centered, 2rem bottom */
   
     /* always have some breathing room */
-    padding: 2rem;          /* 1rem on all sides; you can split padding: 1rem 2rem; */
+    padding: 1rem;          /* 1rem on all sides; you can split padding: 1rem 2rem; */
   }
   
   
