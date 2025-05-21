@@ -7,14 +7,14 @@ body { font-family: sans-serif; line-height: 1.4; padding: 2rem; background: #f5
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
   
     /* center + cap width */
     max-width: 800px;       /* or whatever max width you like */
     margin: 0 auto 2rem;    /* auto L/R margins keep it centered, 2rem bottom */
   
     /* always have some breathing room */
-    padding: 1rem;          /* 1rem on all sides; you can split padding: 1rem 2rem; */
+    padding: 2rem;          /* 1rem on all sides; you can split padding: 1rem 2rem; */
   }
   
   
@@ -82,5 +82,15 @@ header p  { color: #555; }
     .gallery {
       column-count: 1;
     }
+  }
+  
+
+
+  .section-break {
+    border: none;           /* remove default styling */
+    height: 1px;            /* thin line */
+    background: #ddd;       /* light gray */
+    max-width: 800px;       /* match your intro width */
+    margin: 2rem auto;      /* vertical spacing + center */
   }
   
