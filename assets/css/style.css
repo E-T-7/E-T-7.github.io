@@ -3,17 +3,25 @@
 body { font-family: sans-serif; line-height: 1.4; padding: 2rem; background: #f5f5f5; }
 /* 1) Ensure the intro container is a row-based flexbox */
 .intro {
+    /* flex layout as before */
     display: flex;
-    flex-direction: row;       /* side-by-side */
-    align-items: center;       /* vertically center img + text */
-    gap: 1rem;                 /* space between them */
-    margin-bottom: 2rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  
+    /* center + cap width */
+    max-width: 800px;       /* or whatever max width you like */
+    margin: 0 auto 2rem;    /* auto L/R margins keep it centered, 2rem bottom */
+  
+    /* always have some breathing room */
+    padding: 1rem;          /* 1rem on all sides; you can split padding: 1rem 2rem; */
   }
+  
   
   /* 2) Shrink the profile pic */
   .profile-pic {
-    width: 240px;               /* smaller size */
-    height: 240px;
+    width: 360px;               /* smaller size */
+    height: 360px;
     object-fit: cover;
     border-radius: 50%;
     flex-shrink: 0;            /* don’t let it compress oddly */
