@@ -10,7 +10,8 @@ body { font-family: sans-serif; line-height: 1.4; padding: 2rem; background: #f5
     gap: 3rem;
   
     /* center + cap width */
-    max-width: 4000px;       /* or whatever max width you like */
+    max-width: 1400
+    px;       /* or whatever max width you like */
     margin: 0 auto 2rem;    /* auto L/R margins keep it centered, 2rem bottom */
   
     /* always have some breathing room */
@@ -90,7 +91,7 @@ header p  { color: #555; }
     border: none;           /* remove default styling */
     height: 4px;            /* thin line */
     background: #ddd;       /* light gray */
-    max-width: 4000px;       /* match your intro width */
+    max-width: 1400px;       /* match your intro width */
     margin: 2rem auto;      /* vertical spacing + center */
   }
   
