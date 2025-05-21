@@ -10,8 +10,7 @@ body { font-family: sans-serif; line-height: 1.4; padding: 2rem; background: #f5
     gap: 3rem;
   
     /* center + cap width */
-    max-width: 1400
-    px;       /* or whatever max width you like */
+    max-width: 1400px;       /* or whatever max width you like */
     margin: 0 auto 2rem;    /* auto L/R margins keep it centered, 2rem bottom */
   
     /* always have some breathing room */
